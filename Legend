@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Enigma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        #secretMessage {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Quantum Enigma</h1>
+    <p>Discover the hidden secrets within the fabric of our reality.</p>
+    <button onclick="revealMessage()">Reveal Hidden Message</button>
+    
+    <div id="hiddenCode" style="display:none;">
+        <p>The secret code is: <strong>Q3G5A9L7</strong></p>
+    </div>
+    
+    <script>
+        function revealMessage() {
+            document.getElementById('hiddenCode').style.display = 'block';
+        }
+    </script>
+
+    <!-- Hidden secret code start -->
+    <div id="secretMessage">
+        <p>The ultimate question to reveal the simulation's truth is: "What patterns defy the laws of our universe?"</p>
+    </div>
+    <!-- Hidden secret code end -->
+</body>
+</html>
